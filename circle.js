@@ -1,6 +1,7 @@
 //Calculate area of Circle
 
-let radius = 50;
+let radius = prompt('Enter the radius of the circle : ');
+radius = parseFloat(radius);
 let areaOfCircle;
 
 areaOfCircle = 3.1416 * radius * radius;

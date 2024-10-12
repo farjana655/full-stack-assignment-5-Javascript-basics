@@ -1,7 +1,10 @@
 //Calculate area of rectangle
 
-const length = 50;
-const width = 40;
+let length = prompt("Enter the length of the rectangle : ");
+let width = prompt('Enter the width of the rectangle : ');
+
+length = parseFloat(length);
+width = parseFloat(width);
 let areaOfRectangle;
   
 

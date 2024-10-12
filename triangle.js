@@ -1,7 +1,10 @@
 //Calculate area of triangle
 
-const base = 50;
-const height = 40;
+let base = prompt('Enter the base of the triangle : ');
+let height = prompt('Enter the height of the triangle : ');
+
+base =parseFloat(base);
+height = parseFloat(height);
 let areaOfTrangle;
 
 areaOfTrangle = (.5 * base * height);
